@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Lato:wght@400;700;900&family=Roboto&display=swap');
+
+
+@font-face{
+    font-family: DancingScript;
+    src: url(../fonts/Dancing_Script/DancingScript-Bold.woff2) format(woff2);
+    src: url(../fonts/Dancing_Script/DancingScript-Bold.woff) format(woff);
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: DancingScript;
+    src: url(../fonts/Dancing_Script/DancingScript-Regular.woff2) format(woff2);
+    src: url(../fonts/Dancing_Script/DancingScript-Regular.woff) format(woff);
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    font-family: DancingScript;
+    font-weight: 400 - 700;
+}
+
+h1{
+    color: blue;
+}
+
+.text .bill{
+    color: rgb(12, 207, 93);
+}
